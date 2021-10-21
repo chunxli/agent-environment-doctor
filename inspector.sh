@@ -11,6 +11,18 @@ sw_vers
 echo "##[sectioin] Finishing: System Info "
 echo ""
 
+# Agent Info
+echo "##[sectioin] Starting: Agent Info"
+echo "==============================================="
+echo "Task: Agent Info"
+echo "Description: "
+echo "==============================================="
+echo "[Command] echo $ImageVersion"
+echo $ImageVersion
+echo "##[sectioin] Finishing: Agent Info "
+echo ""
+
+
 # Package Management
 echo "##[sectioin] Starting: Package Management"
 echo "==============================================="
