@@ -1,6 +1,6 @@
 # agent-environment-doctor
 
-# How TO USE
+# HOW TO USE
 
 ## Everywhere
 
