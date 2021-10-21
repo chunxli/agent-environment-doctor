@@ -50,6 +50,20 @@ find /Applications -maxdepth 1 -iname "*.app" -type d
 echo "##[sectioin] Finishing: List Application "
 echo ""
 
+# Xcode Info
+echo "##[sectioin] Starting: Xcode Info"
+echo "==============================================="
+echo "Task: Xcode Info"
+echo "Description: "
+echo "==============================================="
+echo "[Command] xcode-select -p"
+xcode-select -p
+echo "[Command] xcodebuild -version"
+xcodebuild -version
+echo "##[sectioin] Finishing: Xcode Info "
+echo ""
+
+
 # List all ENV
 echo "##[sectioin] Starting: List ENV"
 echo "==============================================="
