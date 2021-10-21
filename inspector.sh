@@ -8,8 +8,8 @@ echo "Description: System,Agent Info"
 echo "==============================================="
 echo "[Command] sw_vers"
 sw_vers
-echo "[Command] echo $ImageVersion"
-echo $ImageVersion
+echo "[Command] echo ImageVersion"
+echo "ImageVersion: " $ImageVersion
 echo "##[sectioin] Finishing: Basic Info "
 echo ""
 
